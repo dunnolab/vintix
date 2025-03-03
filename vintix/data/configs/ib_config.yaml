@@ -1,0 +1,171 @@
+# -------------------- DEFAULT --------------------
+industrial-benchmark-0-v1:
+  path: "industrial_benchmark/industrial-benchmark-0-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -357.37980019062255
+  expert_score: -180.79712014617598
+industrial-benchmark-5-v1:
+  path: "industrial_benchmark/industrial-benchmark-5-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -377.13203863041585
+  expert_score: -194.0062748610664
+industrial-benchmark-10-v1:
+  path: "industrial_benchmark/industrial-benchmark-10-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -416.4139140787909
+  expert_score: -215.28766839907158
+industrial-benchmark-15-v1:
+  path: "industrial_benchmark/industrial-benchmark-15-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -444.4112450922561
+  expert_score: -229.96472300072745
+industrial-benchmark-20-v1:
+  path: "industrial_benchmark/industrial-benchmark-20-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -455.9918966169446
+  expert_score: -249.67081588452217
+industrial-benchmark-25-v1:
+  path: "industrial_benchmark/industrial-benchmark-25-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -461.0534593891632
+  expert_score: -272.8732227146618
+industrial-benchmark-30-v1:
+  path: "industrial_benchmark/industrial-benchmark-30-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_benchmark-30-v1:
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -480.12702987508084
+  expert_score: -287.7854269126469
+industrial-benchmark-35-v1:
+  path: "industrial_benchmark/industrial-benchmark-35-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -501.6690973937137
+  expert_score: -314.3616026457144
+industrial-benchmark-40-v1:
+  path: "industrial_benchmark/industrial-benchmark-40-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -528.752340548558
+  expert_score: -337.42929429391313
+industrial-benchmark-45-v1:
+  path: "industrial_benchmark/industrial-benchmark-45-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -547.80817020059825
+  expert_score: -361.021523592706
+industrial-benchmark-50-v1:
+  path: "industrial_benchmark/industrial-benchmark-50-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -574.42463055053915
+  expert_score: -378.29285656627496
+industrial-benchmark-55-v1:
+  path: "industrial_benchmark/industrial-benchmark-55-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -604.3230275100852
+  expert_score: -401.705477296991
+industrial-benchmark-60-v1:
+  path: "industrial_benchmark/industrial-benchmark-60-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -636.3238825957504
+  expert_score: -430.1239783359202
+industrial-benchmark-65-v1:
+  path: "industrial_benchmark/industrial-benchmark-65-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -665.9581657036176
+  expert_score: -450.09127331131043
+industrial-benchmark-70-v1:
+  path: "industrial_benchmark/industrial-benchmark-70-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -670.27857631234
+  expert_score: -470.7826292652468
+industrial-benchmark-75-v1:
+  path: "industrial_benchmark/industrial-benchmark-75-v1"
+  group: industrial_benchmark_overall
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -718.7746256719135
+  expert_score: -474.38261248317355
+# -------------------- TEST --------------------
+industrial-benchmark-80-v1:
+  path: "industrial_benchmark/industrial-benchmark-80-v1"
+  group: industrial_benchmark_overall
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -779.8785106941225
+  expert_score: -485.3534401258634
+industrial-benchmark-85-v1:
+  path: "industrial_benchmark/industrial-benchmark-85-v1"
+  group: industrial_benchmark_overall
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -813.765959205318
+  expert_score: -507.7112770189435
+industrial-benchmark-90-v1:
+  path: "industrial_benchmark/industrial-benchmark-90-v1"
+  group: industrial_benchmark_overall
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -883.3538533337008
+  expert_score: -521.8572837013178
+industrial-benchmark-95-v1:
+  path: "industrial_benchmark/industrial-benchmark-95-v1"
+  group: industrial_benchmark_overall
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -926.8056855036125
+  expert_score: -545.9984101069941
+industrial-benchmark-100-v1:
+  path: "industrial_benchmark/industrial-benchmark-100-v1"
+  group: industrial_benchmark_overall
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: -998.5637664840536
+  expert_score: -561.4573377915581

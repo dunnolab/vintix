@@ -1,0 +1,58 @@
+diff --git a/industrial_benchmark_python/IBGym.py b/industrial_benchmark_python/IBGym.py
+index 87ad4b4..8d68180 100644
+--- a/industrial_benchmark_python/IBGym.py
++++ b/industrial_benchmark_python/IBGym.py
+@@ -27,7 +27,6 @@ SOFTWARE.
+ import gym
+ import numpy as np
+ from collections import OrderedDict
+-
+ from industrial_benchmark_python.IDS import IDS
+ 
+ 
+@@ -36,7 +35,7 @@ class IBGym(gym.Env):
+     OpenAI Gym Wrapper for the industrial benchmark
+     """
+     def __init__(self, setpoint, reward_type="classic", action_type="continuous", observation_type="classic",
+-                 reset_after_timesteps=1000, init_seed=None, n_past_timesteps=30):
++                 reset_after_timesteps=250, init_seed=None, n_past_timesteps=30, log_trainsteps=False):
+         """
+         Initializes the underlying environment, seeds numpy and initializes action / observation spaces
+         as well as other necessary variables
+@@ -152,7 +151,7 @@ class IBGym(gym.Env):
+         # 'classic' which returns the original cost and
+         # 'delta' which returns the change in the cost function w.r.t. the previous cost
+         if self.reward_function == 'classic':
+-            return_reward = self.reward
++            return_reward = self.reward / 100
+         elif self.reward_function == 'delta':
+             return_reward = self.delta_reward
+         else:
+@@ -160,17 +159,18 @@ class IBGym(gym.Env):
+                              ' or "delta" for the change in the cost fucntion between steps.')
+ 
+         self.info = self._markovian_state()  # entire markov state - not all info is visible in observations
++
+         return return_observation, return_reward, self.done, self.info
+ 
+-    def reset(self):
++    def reset(self, seed=69, options = None):
+         """
+         resets environment
+         :return: first observation of fresh environment
+         """
+ 
+         # ensure reproducibility, but still use different env / seed on every reset
++        self.init_seed = np.random.randint(10 ** 9 + 7)
+         self.IB = IDS(self.setpoint, inital_seed=self.init_seed)
+-        self.init_seed = np.random.randint(0, 100000)
+ 
+         # if multiple timesteps in a single observation (time embedding), need list
+         if self.observation_type == "include_past":
+@@ -276,4 +276,4 @@ class IBGym(gym.Env):
+                                    self.IB.state['hg']]
+ 
+         info = OrderedDict(zip(markovian_states_variables, markovian_states_values))
+-        return info
++        return info
+\ No newline at end of file

@@ -1,0 +1,88 @@
+InvertedPendulum-v4:
+  path: "mujoco/invertedpendulum_v4"
+  group: invertedpendulum_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: 8
+  expert_score: 1000
+InvertedDoublePendulum-v4:
+  path: "mujoco/inverteddoublependulum_v4"
+  group: inverteddoublependulum_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: 64
+  expert_score: 9359
+Humanoid-v4:
+  path: "mujoco/humanoid_v4"
+  group: humanoid_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: 142
+  expert_score: 7600
+Walker2d-v4:
+  path: "mujoco/walker2d_v4"
+  group: walker2d_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: 2.68
+  expert_score: 5400
+Hopper-v4:
+  path: "mujoco/hopper_v4"
+  group: hopper_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: 21.7
+  expert_score: 2350
+Ant-v4:
+  path: "mujoco/ant_v4"
+  group: ant_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: -300
+  expert_score: 6450
+HumanoidStandup-v4:
+  path: "mujoco/humanoidstandup_v4"
+  group: humanoidstandup_v4
+  type: default
+  reward_scale: 0.01
+  episode_sparsity: 2
+  random_score: 36609
+  expert_score: 315000
+Swimmer-v4:
+  path: "mujoco/swimmer_v4"
+  group: swimmer_v4
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 5
+  expert_score: 95
+Reacher-v4:
+  path: "mujoco/reacher_v4"
+  group: reacher_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: -43
+  expert_score: -5.5
+Pusher-v4:
+  path: "mujoco/pusher_v4"
+  group: pusher_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: -149
+  expert_score: -40
+HalfCheetah-v4:
+  path: "mujoco/halfcheetah_v4"
+  group: halfcheetah_v4
+  type: default
+  reward_scale: 0.1
+  episode_sparsity: 2
+  random_score: -260
+  expert_score: 7790

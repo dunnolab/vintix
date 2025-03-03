@@ -1,0 +1,162 @@
+# -------------------- DEFAULT --------------------
+shadowhandblockstack:
+  path: "bidexhands/shadowhandblockstack"
+  group: bidex_obs_428_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 3
+  random_score: 90
+  expert_score: 310
+shadowhandbottlecap:
+  path: "bidexhands/shadowhandbottlecap"
+  group: bidex_obs_420_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 75
+  expert_score: 400
+shadowhandcatchabreast:
+  path: "bidexhands/shadowhandcatchabreast"
+  group: bidex_obs_422_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 0.5
+  expert_score: 67
+shadowhandcatchover2underarm:
+  path: "bidexhands/shadowhandcatchover2underarm"
+  group: bidex_obs_422_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 4
+  expert_score: 34
+shadowhandcatchunderarm:
+  path: "bidexhands/shadowhandcatchunderarm"
+  group: bidex_obs_422_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 0.75
+  expert_score: 25
+shadowhanddoorcloseinward:
+  path: "bidexhands/shadowhanddoorcloseinward"
+  group: bidex_obs_417_acs_52_1
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 1.25
+  expert_score: 8.8
+shadowhandgraspandplace:
+  path: "bidexhands/shadowhandgraspandplace"
+  group: bidex_obs_425_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 4
+  random_score: 5
+  expert_score: 500
+shadowhandliftunderarm:
+  path: "bidexhands/shadowhandliftunderarm"
+  group: bidex_obs_417_acs_52_2
+  type: default
+  reward_scale: 1
+  episode_sparsity: 4
+  random_score: -41.5
+  expert_score: 400
+shadowhandpen:
+  path: "bidexhands/shadowhandpen"
+  group: bidex_obs_417_acs_52_2
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 0.0
+  expert_score: 190
+shadowhandpushblock:
+  path: "bidexhands/shadowhandpushblock"
+  group: bidex_obs_428_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 230
+  expert_score: 450
+shadowhandreorientation:
+  path: "bidexhands/shadowhandreorientation"
+  group: bidex_obs_422_acs_40
+  type: default
+  reward_scale: 1
+  episode_sparsity: 6
+  random_score: -50
+  expert_score: 3150
+shadowhandscissors:
+  path: "bidexhands/shadowhandscissors"
+  group: bidex_obs_417_acs_52_2
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: -40
+  expert_score: 725
+shadowhandswingcup:
+  path: "bidexhands/shadowhandswingcup"
+  group: bidex_obs_417_acs_52_2
+  type: default
+  reward_scale: 1
+  episode_sparsity: 3
+  random_score: -490
+  expert_score: 4000
+shadowhandswitch:
+  path: "bidexhands/shadowhandswitch"
+  group: bidex_obs_417_acs_52_2
+  type: default
+  reward_scale: 1
+  episode_sparsity: 2
+  random_score: 45
+  expert_score: 280
+shadowhandtwocatchunderarm:
+  path: "bidexhands/shadowhandtwocatchunderarm"
+  group: bidex_obs_446_acs_52
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 1.5
+  expert_score: 24
+# -------------------- TEST --------------------
+shadowhanddoorcloseoutward:
+ path: "bidexhands/shadowhanddoorcloseoutward"
+ group: bidex_obs_417_acs_52_1
+ type: test
+ reward_scale: 1
+ episode_sparsity: 3
+ random_score: 930
+ expert_score: 1380
+shadowhanddooropeninward:
+ path: "bidexhands/shadowhanddooropeninward"
+ group: bidex_obs_417_acs_52_1
+ type: test
+ reward_scale: 1
+ episode_sparsity: 3
+ random_score: -15
+ expert_score: 410
+shadowhanddooropenoutward:
+ path: "bidexhands/shadowhanddooropenoutward"
+ group: bidex_obs_417_acs_52_1
+ type: test
+ reward_scale: 1
+ episode_sparsity: 3
+ random_score: 5
+ expert_score: 610
+shadowhandkettle:
+ path: "bidexhands/shadowhandkettle"
+ group: bidex_obs_417_acs_52_2
+ type: test
+ reward_scale: 1
+ episode_sparsity: 2
+ random_score: -200
+ expert_score: 53
+#shadowhandover:
+# path: "bidexhands/shadowhandover"
+# group: bidex_obs_398_acs_40
+# type: test  # test (impossible for individual head model)
+# reward_scale: 1
+# episode_sparsity: 1
+# random_score: 3
+# expert_score: 34

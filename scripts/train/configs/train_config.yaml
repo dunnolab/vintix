@@ -1,0 +1,59 @@
+# dataloader config
+data_dir: "path/to/dataset/folder"
+context_len: 8192
+trajectory_sparsity: 257
+preload: False
+last_frac: null
+
+# model config
+action_emb_dim: 511
+observation_emb_dim: 511
+reward_emb_dim: 2
+hidden_dim: 1024  # action_emb_dim+observation_emb_dim+reward_emb_dim
+transformer_depth: 20
+transformer_heads: 16
+attn_dropout: 0.0
+residual_dropout: 0.0
+normalize_qk: True
+bias: True
+parallel_residual: False
+shared_attention_norm: False
+norm_class: "LayerNorm"
+mlp_class: "GptNeoxMLP"
+intermediate_size: 4096
+inner_ep_pos_enc: False
+norm_acs: False
+norm_obs: True
+
+# optimizer config
+optimizer: "Adam"
+lr: 3e-4
+betas: [0.9, 0.99]
+weight_decay: 1e-1
+precision: "bf16"
+clip_grad: null
+grad_accum_steps: 2
+warmup_ratio: 0.005
+
+# training config
+local_rank: 0
+epochs: 150
+batch_size: 8
+save_every: 2
+save_dir: "/path/to/savedir"
+stats_path: "vintix/stats.json"
+load_ckpt: null
+start_epoch: 0
+seed: 5
+
+# Dataset config
+dataset_config_paths:
+  - "vintix/data/configs/metaworld_config.yaml"
+  - "vintix/data/configs/mujoco_config.yaml"
+  - "vintix/data/configs/ib_config.yaml"
+  - "vintix/data/configs/bidex_config.yaml"
+
+# wandb config
+project: "Vintix"
+group: "default"
+name: "Vintix"

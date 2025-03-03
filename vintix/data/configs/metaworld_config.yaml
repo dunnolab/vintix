@@ -1,0 +1,402 @@
+# -------------------- DEFAULT --------------------
+assembly-v2:
+  path: "metaworld/assembly-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 45
+  expert_score: 297
+basketball-v2:
+  path: "metaworld/basketball-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5
+  expert_score: 557
+button-press-topdown-v2:
+  path: "metaworld/button-press-topdown-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 32
+  expert_score: 476
+button-press-topdown-wall-v2:
+  path: "metaworld/button-press-topdown-wall-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 32
+  expert_score: 496
+button-press-v2:
+  path: "metaworld/button-press-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 32
+  expert_score: 643
+button-press-wall-v2:
+  path: "metaworld/button-press-wall-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 10
+  expert_score: 672
+coffee-button-v2:
+  path: "metaworld/coffee-button-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 34
+  expert_score: 719
+coffee-pull-v2:
+  path: "metaworld/coffee-pull-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 6.4
+  expert_score: 287
+coffee-push-v2:
+  path: "metaworld/coffee-push-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 4
+  expert_score: 565.4
+dial-turn-v2:
+  path: "metaworld/dial-turn-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 32
+  expert_score: 791.5
+disassemble-v2:
+  path: "metaworld/disassemble-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 39
+  expert_score: 523.6
+door-close-v2:
+  path: "metaworld/door-close-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 12.6
+  expert_score: 527.8
+door-open-v2:
+  path: "metaworld/door-open-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 60
+  expert_score: 586.6
+drawer-close-v2:
+  path: "metaworld/drawer-close-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 128
+  expert_score: 868.5
+drawer-open-v2:
+  path: "metaworld/drawer-open-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 136
+  expert_score: 493
+faucet-close-v2:
+  path: "metaworld/faucet-close-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 260
+  expert_score: 754.4
+faucet-open-v2:
+  path: "metaworld/faucet-open-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 240
+  expert_score: 747.7
+hammer-v2:
+  path: "metaworld/hammer-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 107
+  expert_score: 686.7
+handle-press-side-v2:
+  path: "metaworld/handle-press-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 57
+  expert_score: 861
+handle-press-v2:
+  path: "metaworld/handle-press-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 74
+  expert_score: 835.3
+handle-pull-side-v2:
+  path: "metaworld/handle-pull-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5.4
+  expert_score: 493.1
+handle-pull-v2:
+  path: "metaworld/handle-pull-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 10
+  expert_score: 701.1
+lever-pull-v2:
+  path: "metaworld/lever-pull-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 62
+  expert_score: 569
+peg-insert-side-v2:
+  path: "metaworld/peg-insert-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5.9
+  expert_score: 349
+peg-unplug-side-v2:
+  path: "metaworld/peg-unplug-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 14.9
+  expert_score: 530.4
+pick-out-of-hole-v2:
+  path: "metaworld/pick-out-of-hole-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 2.2
+  expert_score: 400
+pick-place-v2:
+  path: "metaworld/pick-place-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 8.2
+  expert_score: 422.3
+pick-place-wall-v2:
+  path: "metaworld/pick-place-wall-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 2.5
+  expert_score: 532
+plate-slide-back-side-v2:
+  path: "metaworld/plate-slide-back-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 37.6
+  expert_score: 728.2
+plate-slide-back-v2:
+  path: "metaworld/plate-slide-back-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 34
+  expert_score: 710.7
+plate-slide-side-v2:
+  path: "metaworld/plate-slide-side-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 36
+  expert_score: 689.3
+plate-slide-v2:
+  path: "metaworld/plate-slide-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 75
+  expert_score: 536.6
+push-back-v2:
+  path: "metaworld/push-back-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 2.8
+  expert_score: 391.6
+push-v2:
+  path: "metaworld/push-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 6
+  expert_score: 751.7
+push-wall-v2:
+  path: "metaworld/push-wall-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 7
+  expert_score: 749.1
+reach-v2:
+  path: "metaworld/reach-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 154
+  expert_score: 679.2
+reach-wall-v2:
+  path: "metaworld/reach-wall-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 156
+  expert_score: 749.9
+shelf-place-v2:
+  path: "metaworld/shelf-place-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 1.4
+  expert_score: 265.7
+soccer-v2:
+  path: "metaworld/soccer-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5
+  expert_score: 546.8
+stick-pull-v2:
+  path: "metaworld/stick-pull-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5.3
+  expert_score: 525.6
+stick-push-v2:
+  path: "metaworld/stick-push-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 5.7
+  expert_score: 625
+sweep-into-v2:
+  path: "metaworld/sweep-into-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 18
+  expert_score: 798.8
+sweep-v2:
+  path: "metaworld/sweep-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 17
+  expert_score: 517.2
+window-close-v2:
+  path: "metaworld/window-close-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 53
+  expert_score: 589.3
+window-open-v2:
+  path: "metaworld/window-open-v2"
+  group: metaworld
+  type: default
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 43
+  expert_score: 595.8
+# -------------------- TEST --------------------
+bin-picking-v2:
+  path: "metaworld/bin-picking-v2"
+  group: metaworld
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 3.6
+  expert_score: 432
+box-close-v2:
+  path: "metaworld/box-close-v2"
+  group: metaworld
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 79.8
+  expert_score: 531
+door-lock-v2:
+  path: "metaworld/door-lock-v2"
+  group: metaworld
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 114
+  expert_score: 806.9
+door-unlock-v2:
+  path: "metaworld/door-unlock-v2"
+  group: metaworld
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 233.5
+  expert_score: 801.9
+hand-insert-v2:
+  path: "metaworld/hand-insert-v2"
+  group: metaworld
+  type: test
+  reward_scale: 1
+  episode_sparsity: 1
+  random_score: 3.5
+  expert_score: 736.7

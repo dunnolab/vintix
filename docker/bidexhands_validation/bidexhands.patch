@@ -1,0 +1,13 @@
+diff --git a/bidexhands/utils/config.py b/bidexhands/utils/config.py
+index 15da6cf..1c66bc7 100644
+--- a/bidexhands/utils/config.py
++++ b/bidexhands/utils/config.py
+@@ -271,6 +271,8 @@ def get_args(benchmark=False, use_rlg_config=False, task_name="", algo=""):
+                                   "help": "Number of timing reports"},
+                               {"name": "--bench_file", "action": "store", "help": "Filename to store benchmark results"}]
+ 
++    custom_parameters += [{"name": "-f", "type": str, "default": "bar", "help": "dummy arg to overcome error"}]
++
+     # parse arguments
+     args = gymutil.parse_arguments(
+         description="RL Policy",
