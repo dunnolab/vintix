@@ -1,7 +1,7 @@
 # Vintix: Action Model via In-Context Reinforcement Learning
 
 [![License](https://img.shields.io/github/license/huggingface/jat.svg?color=blue)](LICENSE)
-[![arXiv](https://img.shields.io/badge/cs.AI-arXiv%3A2402.09844-B31B1B.svg)](https://arxiv.org/abs/2501.19400)
+[![arXiv](https://img.shields.io/badge/cs.AI-arXiv%3A2501.19400-B31B1B.svg)](https://arxiv.org/abs/2501.19400)
 
 An official implementation for [Vintix: Action Model via In-Context Reinforcement Learning](https://arxiv.org/abs/2501.19400) — a cross-domain model capable of learning behaviors through in-context reinforcement learning.
 
