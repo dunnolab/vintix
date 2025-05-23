@@ -142,3 +142,9 @@ If you would like to cite our work, please use the following bibtex
   year={2025}
 }
 ```
+
+## Acknowledgments
+
+This work was supported by [Artificial Intelligence Research Institute](https://airi.net/?force=en) (AIRI).
+
+<img src="figures/logo.png" align="center" width="20%" style="margin:15px;">
